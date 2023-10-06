@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a60f662a-482f-486e-b0c5-7da326e9d152" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/selenide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app/uipage/GoogleSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/app/uipage/GoogleSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/app/ui/BaseUiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/ui/BaseUiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +65,7 @@
       <recent name="app.ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GoogleSearchTest.testSearchByName">
+  <component name="RunManager" selected="Gradle.GoogleSearchTest.testClickLogoEmptyResultsArea">
     <configuration name="AgeCheckerTest.testIsUser18OrOlder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -193,10 +181,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GoogleSearchTest.testClickLogoEmptyResultsArea" />
         <item itemvalue="Gradle.GoogleSearchTest.testSearchByName" />
         <item itemvalue="Gradle.AtaiTestTask [dependencies]" />
         <item itemvalue="Gradle.AgeCheckerTest.testIsUser18OrOlder" />
-        <item itemvalue="Gradle.GoogleSearchTest.testClickLogoEmptyResultsArea" />
         <item itemvalue="Gradle.GoogleSearchTest.testHoverTooltip" />
       </list>
     </recent_temporary>

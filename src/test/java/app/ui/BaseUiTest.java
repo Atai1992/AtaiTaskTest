@@ -2,10 +2,10 @@ package app.ui;
 
 import com.codeborne.selenide.*;
 import org.example.app.uipage.GoogleSearchPage;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 
+import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.open;
 
 public class BaseUiTest {
@@ -20,20 +20,14 @@ public class BaseUiTest {
 
     @BeforeClass
     public void setUpBrowser(){
-        Configuration.holdBrowserOpen=true;
+        Configuration.holdBrowserOpen=false;
         Configuration.browserSize="1920x1080";
-        googleSearchPage= new GoogleSearchPage();}}
+        googleSearchPage= new GoogleSearchPage();
+    }
+}
 
 
 
-
-
-
-
-//
-//
-//    @AfterClass
-//    public void tearDown() {
 
 
 
